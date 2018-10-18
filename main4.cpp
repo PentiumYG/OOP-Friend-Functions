@@ -25,7 +25,7 @@ class B
 		}
 		B(int y)
 		{
-			this -> y=y;
+			this -> y=y;    // this pointer used to differentiate between local y and data member y
 		}
 		friend int sum (A,B);
 };
